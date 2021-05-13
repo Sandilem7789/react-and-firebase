@@ -1,5 +1,4 @@
-# Following a book called Road to react and firebase
-# Initialized using create react app.
+# Learning Firebase
 
 
 ## Available Scripts
