@@ -5,7 +5,7 @@ import "firebase/auth";
 console.log(process.env.REACT_APP_DATABASE_URL);
 
 const config = {
-  apiKey: "AIzaSyC7BQgyHZedgf66yCvB9E1Tljh88PmVQzA",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
   databaseURL: process.env.REACT_APP_DATABASE_URL,
   projectId: process.env.REACT_APP_PROJECT_ID,
